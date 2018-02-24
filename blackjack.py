@@ -1,6 +1,7 @@
 #Author: Dileesh Chandra Bikkasani
 #11/01/16
 import random
+
 import os
 
 clear_terminal = lambda : os.system('clear')
@@ -76,6 +77,7 @@ class Dealer(Account):
             return 'Busted!'
         else:
             return self.cards_d
+
 
 def card_sum(hand):
     total = 0
