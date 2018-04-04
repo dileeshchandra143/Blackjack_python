@@ -1,5 +1,3 @@
-#Author: Dileesh Chandra Bikkasani
-#11/01/17
 import random
 
 import os
